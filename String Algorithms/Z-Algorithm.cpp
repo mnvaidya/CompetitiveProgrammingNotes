@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// link for animation of this algorithm -->  http://www.utdallas.edu/~besp/demo/John2010/z-algorithm.htm
 
 // Function for searching the pattern in string with O(n) time complexity
 

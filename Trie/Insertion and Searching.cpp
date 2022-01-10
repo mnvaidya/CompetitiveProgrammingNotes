@@ -34,7 +34,7 @@ void insert(string s, node* root){                // inserting a string into the
     for(int i=0; i<s.length(); i++){
         int index= s[i]-'a';
         
-        // if this not is not present, create a new one
+        // if this node is not present, create a new one
         if(temp->arr[index]==NULL) temp->arr[index]=getNode();
 
         temp=temp->arr[index];        	 // traverse forward to insert each character of the string
